@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Font -->
+    <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/grunger" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/seagull" rel="stylesheet">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>The Evolving Textbook</title>
+</head>
+
+<body>
+    <nav id="mainNavbar" class="navbar navbar-expand py-0 pl-5 fixed-top">
+        <a href="index.html"><img src="imgs/logo.svg" class="img" alt="" style="width: 15%"></a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">OBJECTIVES</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">PARTNERS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="container mt-5 py-5">
+        <div class="row align-items-center mt-5">
+            <div class="col-lg-12 ml-5">
+                <p class="text-center thin lead">The site is under construction</p>
+                <div id="headingGroup" class="text-left d-lg-block mt-5">
+                    <h1 class="">The Evolving</h1>
+                    <h1 class="h1Bold">Textbook</h1>
+                    <h3 class="pt-5"></h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container py-5 px-5">
+        <div class="row align-items-start">
+            <div class="col-lg-12 text-left blurb pb-5 ">
+                <h2 class="lead" style="color: white ">An Erasmus+ project:</h2>
+                <h3 >Addressing digital transformation through development of digital readiness, resilience and capacity.</h3>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="container-fluid py-5" style="background: white;">
+        <div class="container">
+            <div class="row align-items-start pl-3">
+                <div class="col-lg-12 text-left" style="color: #1b2068">
+                    <h2>Main idea</h2>
+                    <p class="lead">The main idea of the project is the collaborative development of the evolving digital textbook. This is a platform that will
+                        include core textual information that will evolve with time with additional textual, graphical, video, and other types of content.
+                        Content will be created by both teachers and learners and the platform will support them in their daily educational activities
+                        and stimulate innovative learning and teaching practices.</p>
+                </div>
+            </div>
+            <div class="row align-items-end py-5">
+                <div class="col-lg-12 text-left">
+                    <img src="imgs/EUcofunded.jpg" class="img-fluid" alt="" style="width: 30%">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="sticky-footer" class="flex-shrink-0 pt-5 bg-white font-dark">
+        <div class="container text-center">
+            <small> &copy; Copyright <strong><span>LAMPA</span></strong>. All Rights Reserved</small>
+        </div>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+</body>
+
+</html>

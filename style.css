@@ -1,0 +1,109 @@
+
+body {
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#0089c8, #362db1);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#0089c8, #362db1);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#0089c8, #362db1);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#3badf4, #362db1);
+    /* Standard syntax (must be last) */;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+    padding-bottom: 75px;;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-family: 'Seagull', sans-serif;
+    color: #1346BE;
+    font-weight:400;
+    font-size: 62px;
+}
+ .h1Bold{
+     font-family: 'Grunger', sans-serif;
+     font-size: 90px;
+     color: white;
+     margin-top: -12px;
+
+ }
+
+h3{
+    font-weight:200;
+}
+
+
+.blurb h3 {
+   color: #fdeee5;
+   font-weight: 300;
+   font-size: 2.1rem;
+}
+
+.blurb p {
+    color: #ffffff;
+    font-size: 1.125rem;
+    line-height: 2;
+    font-weight: 200;
+}
+
+.font-dark {
+    color: #14184f;
+}
+
+.thin{
+    font-weight: 200;
+}
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 200;
+    background: white;
+}
+
+#mainNavbar .nav-link {
+    color: #1b2068;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    padding-right: 20px;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #2c36b5;
+    font-weight: 400;
+}
+
+#mainNavbar .navbar-brand {
+    font-size: 1.8rem;
+}
+
+#home .container{
+    margin-top: 100px;
+    padding-left: 0;
+}
+
+#headingGroup span {
+    color: #283aea;
+}
+
+
+.navbar.scrolled {
+    background: rgb(183, 220, 232);
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+
+}
+
+
+
+
