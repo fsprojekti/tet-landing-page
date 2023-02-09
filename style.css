@@ -56,6 +56,16 @@ h3{
 .thin{
     font-weight: 200;
 }
+
+.navbar.scrolled {
+    background: rgb(183, 220, 232);
+    transition: background 500ms;
+}
+
+.btn-tet{
+    background-color: #0089c8;
+    color: white;
+}
 #mainNavbar {
     font-size: 1.5rem;
     font-weight: 200;
@@ -85,12 +95,6 @@ h3{
 
 #headingGroup span {
     color: #283aea;
-}
-
-
-.navbar.scrolled {
-    background: rgb(183, 220, 232);
-    transition: background 500ms;
 }
 
 @media (max-width: 1200px) {
