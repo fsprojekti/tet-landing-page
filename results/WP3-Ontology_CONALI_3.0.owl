@@ -1,0 +1,2437 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.ConstructiveAlignmentOntology.com"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.ConstructiveAlignmentOntology.com">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#ATLevel1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ATLevel2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ATLevel3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ATLevel4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ATLevel5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ATLevel6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnalysingVerb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ApplyingVerb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AssessmentTask"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BTLevel1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BTLevel2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BTLevel3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BTLevel4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BTLevel5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BTLevel6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BloomTaxonomyLevel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Content"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Context"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Course"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CreatingVerb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EducationalGoalVerb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EvaluatingVerb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IntendedLearningOutcome"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RememberingVerb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TLALevel1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TLALevel2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TLALevel3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TLALevel4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TLALevel5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TLALevel6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TeachingAndLearningActivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnderstandingVerb"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#BelongsToBTLevel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#BelongsToBTLevel1"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#BelongsToBTLevel2"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#BelongsToBTLevel3"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#BelongsToBTLevel4"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#BelongsToBTLevel5"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#BelongsToBTLevel6"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#addressILO"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#enactsEducationalGoalVerbOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAT"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAnalysingVerb"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasApplyingVerb"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasContent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasContext"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCreatingVerb"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEducationalGoalVerb"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEvaluatingVerb"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasILO"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasObject"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPrerequisite"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRememberingVerb"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTLA"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasUnderstandingVerb"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isATFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAddressedByTLA"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isBaseOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isBasedOn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isContentOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isContextOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isDeployedInTheContextOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isDeploymentContextOfEducationalGoalVerbOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isEducationalGoalVerbOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isEnactedByTLA"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isILOFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isObjectOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPrerequisiteFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTLAFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTestedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#testsILOOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ContentKeyword"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ContextKeyword"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CourseCode"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CourseTitle"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Course__moment"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#EducationalLevel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#FunctionOfAT"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ILO_ID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#KindoOfAssessment"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Language"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#NumberOfCreditsInCourse"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#NumberOfStudentsInCourse"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Period"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ShortDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#TLAKeywords"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#TLAMaterialLink"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Programme/Year"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Weekday,_date__and_time_slot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Abstract"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Analyse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Apply"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Appraise"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Argue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Article"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Assess"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Brainstorm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Case_study_in_real-life_situation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Change"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Characterize"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Choose"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Class_discussion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Classify"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Compare"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Compose"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Compute"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Conclude"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Construct"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Construct_a_roleplay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Contrast"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Count"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Create"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Create_a_new_report"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Critique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Debate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Debates"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Decide"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Deconstruct"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Deduce"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Define"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Demonstrate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Describe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Design"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Design_a_presentation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Develop"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Differentiate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Discriminate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Discuss"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Discussion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Distinguish"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dramatize"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Draw"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Evaluate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Examine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Exemplify"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Explain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Extrapolate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Find"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fishbowl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Generalize"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Generate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Group_work"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hypothesize"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Identify"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Illustrate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Imitate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Implement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Improve"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Integrate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Interpret"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Interview"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Invent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jigsaw_method"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Journal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Judge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Justify"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Label"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Laboratory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lecture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#List"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Make"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MakeACase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MakeAnOriginalCase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Match"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Memorize"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mind_map"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Monitor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Multiple_choice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Narrate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Order"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Organize"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Originate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Outline"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paraphrase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Peer_evaluation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Perform"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Plan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Play"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Predict"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Prepare"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Prioritize"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Problem-solving_tasks"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Produce"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Prove"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ProveFromFirstPrinicples"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Quote"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rank"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ReadingMaterial"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Recall"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Recite"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Recognize"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Reflect"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Reflection"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Relate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Report"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Research"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Review"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rewrite"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Role"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Roleplay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Select"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Separate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sequence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Show"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Solve"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SolveFromFirstPrinciples"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Structure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Summarize"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tell"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Theorize"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thesis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Think-pair-share"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Transfer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Translate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Understand"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Use"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Write"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WriteProgram"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#annotated_bibliography"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#case_study"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#class_discussion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#creative_work"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#demonstration"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#essay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#forum_posts"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#group_presentation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#individual_presentation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#interview"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#literature_review"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#minutes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#open-book"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#performance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#portfolio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#problem_sheet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#project"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#question_banks"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#report"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#take-home_examinations"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#viva-voce"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#workbook"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#quiz/test"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#ATLevel1"/>
+        <Class IRI="#AssessmentTask"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ATLevel2"/>
+        <Class IRI="#AssessmentTask"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ATLevel3"/>
+        <Class IRI="#AssessmentTask"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ATLevel4"/>
+        <Class IRI="#AssessmentTask"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ATLevel5"/>
+        <Class IRI="#AssessmentTask"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ATLevel6"/>
+        <Class IRI="#AssessmentTask"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnalysingVerb"/>
+        <Class IRI="#EducationalGoalVerb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ApplyingVerb"/>
+        <Class IRI="#EducationalGoalVerb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AssessmentTask"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BTLevel1"/>
+        <Class IRI="#BloomTaxonomyLevel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BTLevel2"/>
+        <Class IRI="#BloomTaxonomyLevel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BTLevel3"/>
+        <Class IRI="#BloomTaxonomyLevel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BTLevel4"/>
+        <Class IRI="#BloomTaxonomyLevel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BTLevel5"/>
+        <Class IRI="#BloomTaxonomyLevel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BTLevel6"/>
+        <Class IRI="#BloomTaxonomyLevel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BloomTaxonomyLevel"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Course"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CreatingVerb"/>
+        <Class IRI="#EducationalGoalVerb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EducationalGoalVerb"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EvaluatingVerb"/>
+        <Class IRI="#EducationalGoalVerb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IntendedLearningOutcome"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RememberingVerb"/>
+        <Class IRI="#EducationalGoalVerb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TLALevel1"/>
+        <Class IRI="#TeachingAndLearningActivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TLALevel2"/>
+        <Class IRI="#TeachingAndLearningActivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TLALevel3"/>
+        <Class IRI="#TeachingAndLearningActivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TLALevel4"/>
+        <Class IRI="#TeachingAndLearningActivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TLALevel5"/>
+        <Class IRI="#TeachingAndLearningActivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TLALevel6"/>
+        <Class IRI="#TeachingAndLearningActivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TeachingAndLearningActivity"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnderstandingVerb"/>
+        <Class IRI="#EducationalGoalVerb"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#ATLevel3"/>
+        <NamedIndividual IRI="#Abstract"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnalysingVerb"/>
+        <NamedIndividual IRI="#Analyse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ApplyingVerb"/>
+        <NamedIndividual IRI="#Apply"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EvaluatingVerb"/>
+        <NamedIndividual IRI="#Appraise"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EvaluatingVerb"/>
+        <NamedIndividual IRI="#Argue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel6"/>
+        <NamedIndividual IRI="#Article"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EvaluatingVerb"/>
+        <NamedIndividual IRI="#Assess"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TLALevel6"/>
+        <NamedIndividual IRI="#Brainstorm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TLALevel3"/>
+        <NamedIndividual IRI="#Case_study_in_real-life_situation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ApplyingVerb"/>
+        <NamedIndividual IRI="#Change"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnalysingVerb"/>
+        <NamedIndividual IRI="#Characterize"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ApplyingVerb"/>
+        <NamedIndividual IRI="#Choose"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EvaluatingVerb"/>
+        <NamedIndividual IRI="#Choose"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TLALevel4"/>
+        <NamedIndividual IRI="#Class_discussion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnalysingVerb"/>
+        <NamedIndividual IRI="#Classify"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UnderstandingVerb"/>
+        <NamedIndividual IRI="#Classify"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnalysingVerb"/>
+        <NamedIndividual IRI="#Compare"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UnderstandingVerb"/>
+        <NamedIndividual IRI="#Compare"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CreatingVerb"/>
+        <NamedIndividual IRI="#Compose"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ApplyingVerb"/>
+        <NamedIndividual IRI="#Compute"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EvaluatingVerb"/>
+        <NamedIndividual IRI="#Conclude"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UnderstandingVerb"/>
+        <NamedIndividual IRI="#Conclude"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CreatingVerb"/>
+        <NamedIndividual IRI="#Construct"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TLALevel6"/>
+        <NamedIndividual IRI="#Construct_a_roleplay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnalysingVerb"/>
+        <NamedIndividual IRI="#Contrast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ApplyingVerb"/>
+        <NamedIndividual IRI="#Count"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UnderstandingVerb"/>
+        <NamedIndividual IRI="#Count"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CreatingVerb"/>
+        <NamedIndividual IRI="#Create"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TLALevel6"/>
+        <NamedIndividual IRI="#Create_a_new_report"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EvaluatingVerb"/>
+        <NamedIndividual IRI="#Critique"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnalysingVerb"/>
+        <NamedIndividual IRI="#Debate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel2"/>
+        <NamedIndividual IRI="#Debates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel4"/>
+        <NamedIndividual IRI="#Debates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel5"/>
+        <NamedIndividual IRI="#Debates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TLALevel4"/>
+        <NamedIndividual IRI="#Debates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TLALevel5"/>
+        <NamedIndividual IRI="#Debates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EvaluatingVerb"/>
+        <NamedIndividual IRI="#Decide"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnalysingVerb"/>
+        <NamedIndividual IRI="#Deconstruct"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnalysingVerb"/>
+        <NamedIndividual IRI="#Deduce"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RememberingVerb"/>
+        <NamedIndividual IRI="#Define"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UnderstandingVerb"/>
+        <NamedIndividual IRI="#Demonstrate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RememberingVerb"/>
+        <NamedIndividual IRI="#Describe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CreatingVerb"/>
+        <NamedIndividual IRI="#Design"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TLALevel6"/>
+        <NamedIndividual IRI="#Design_a_presentation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CreatingVerb"/>
+        <NamedIndividual IRI="#Develop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnalysingVerb"/>
+        <NamedIndividual IRI="#Differentiate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnalysingVerb"/>
+        <NamedIndividual IRI="#Discriminate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UnderstandingVerb"/>
+        <NamedIndividual IRI="#Discuss"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TLALevel2"/>
+        <NamedIndividual IRI="#Discussion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnalysingVerb"/>
+        <NamedIndividual IRI="#Distinguish"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ApplyingVerb"/>
+        <NamedIndividual IRI="#Dramatize"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RememberingVerb"/>
+        <NamedIndividual IRI="#Draw"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EvaluatingVerb"/>
+        <NamedIndividual IRI="#Evaluate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnalysingVerb"/>
+        <NamedIndividual IRI="#Examine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UnderstandingVerb"/>
+        <NamedIndividual IRI="#Exemplify"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UnderstandingVerb"/>
+        <NamedIndividual IRI="#Explain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnalysingVerb"/>
+        <NamedIndividual IRI="#Extrapolate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CreatingVerb"/>
+        <NamedIndividual IRI="#Extrapolate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EvaluatingVerb"/>
+        <NamedIndividual IRI="#Extrapolate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RememberingVerb"/>
+        <NamedIndividual IRI="#Find"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel4"/>
+        <NamedIndividual IRI="#Fishbowl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TLALevel2"/>
+        <NamedIndividual IRI="#Fishbowl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TLALevel3"/>
+        <NamedIndividual IRI="#Fishbowl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TLALevel4"/>
+        <NamedIndividual IRI="#Fishbowl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CreatingVerb"/>
+        <NamedIndividual IRI="#Generalize"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CreatingVerb"/>
+        <NamedIndividual IRI="#Generate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel3"/>
+        <NamedIndividual IRI="#Group_work"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel5"/>
+        <NamedIndividual IRI="#Group_work"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TLALevel3"/>
+        <NamedIndividual IRI="#Group_work"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CreatingVerb"/>
+        <NamedIndividual IRI="#Hypothesize"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RememberingVerb"/>
+        <NamedIndividual IRI="#Identify"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UnderstandingVerb"/>
+        <NamedIndividual IRI="#Identify"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UnderstandingVerb"/>
+        <NamedIndividual IRI="#Illustrate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RememberingVerb"/>
+        <NamedIndividual IRI="#Imitate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ApplyingVerb"/>
+        <NamedIndividual IRI="#Implement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CreatingVerb"/>
+        <NamedIndividual IRI="#Improve"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CreatingVerb"/>
+        <NamedIndividual IRI="#Integrate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EvaluatingVerb"/>
+        <NamedIndividual IRI="#Integrate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UnderstandingVerb"/>
+        <NamedIndividual IRI="#Interpret"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ApplyingVerb"/>
+        <NamedIndividual IRI="#Interview"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CreatingVerb"/>
+        <NamedIndividual IRI="#Invent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel4"/>
+        <NamedIndividual IRI="#Jigsaw_method"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TLALevel4"/>
+        <NamedIndividual IRI="#Jigsaw_method"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel5"/>
+        <NamedIndividual IRI="#Journal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TLALevel5"/>
+        <NamedIndividual IRI="#Journal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EvaluatingVerb"/>
+        <NamedIndividual IRI="#Judge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EvaluatingVerb"/>
+        <NamedIndividual IRI="#Justify"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RememberingVerb"/>
+        <NamedIndividual IRI="#Label"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel4"/>
+        <NamedIndividual IRI="#Laboratory"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TLALevel3"/>
+        <NamedIndividual IRI="#Laboratory"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TLALevel4"/>
+        <NamedIndividual IRI="#Laboratory"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TLALevel1"/>
+        <NamedIndividual IRI="#Lecture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RememberingVerb"/>
+        <NamedIndividual IRI="#List"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CreatingVerb"/>
+        <NamedIndividual IRI="#Make"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EvaluatingVerb"/>
+        <NamedIndividual IRI="#MakeACase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CreatingVerb"/>
+        <NamedIndividual IRI="#MakeAnOriginalCase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RememberingVerb"/>
+        <NamedIndividual IRI="#Match"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RememberingVerb"/>
+        <NamedIndividual IRI="#Memorize"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel2"/>
+        <NamedIndividual IRI="#Mind_map"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel5"/>
+        <NamedIndividual IRI="#Mind_map"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TLALevel2"/>
+        <NamedIndividual IRI="#Mind_map"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TLALevel3"/>
+        <NamedIndividual IRI="#Mind_map"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TLALevel4"/>
+        <NamedIndividual IRI="#Mind_map"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TLALevel5"/>
+        <NamedIndividual IRI="#Mind_map"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EvaluatingVerb"/>
+        <NamedIndividual IRI="#Monitor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel1"/>
+        <NamedIndividual IRI="#Multiple_choice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RememberingVerb"/>
+        <NamedIndividual IRI="#Name"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RememberingVerb"/>
+        <NamedIndividual IRI="#Narrate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UnderstandingVerb"/>
+        <NamedIndividual IRI="#Narrate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnalysingVerb"/>
+        <NamedIndividual IRI="#Order"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ApplyingVerb"/>
+        <NamedIndividual IRI="#Order"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EvaluatingVerb"/>
+        <NamedIndividual IRI="#Order"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UnderstandingVerb"/>
+        <NamedIndividual IRI="#Order"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnalysingVerb"/>
+        <NamedIndividual IRI="#Organize"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CreatingVerb"/>
+        <NamedIndividual IRI="#Originate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnalysingVerb"/>
+        <NamedIndividual IRI="#Outline"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UnderstandingVerb"/>
+        <NamedIndividual IRI="#Paraphrase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel5"/>
+        <NamedIndividual IRI="#Peer_evaluation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TLALevel5"/>
+        <NamedIndividual IRI="#Peer_evaluation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CreatingVerb"/>
+        <NamedIndividual IRI="#Perform"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CreatingVerb"/>
+        <NamedIndividual IRI="#Plan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ApplyingVerb"/>
+        <NamedIndividual IRI="#Play"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EvaluatingVerb"/>
+        <NamedIndividual IRI="#Predict"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UnderstandingVerb"/>
+        <NamedIndividual IRI="#Predict"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ApplyingVerb"/>
+        <NamedIndividual IRI="#Prepare"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EvaluatingVerb"/>
+        <NamedIndividual IRI="#Prioritize"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel3"/>
+        <NamedIndividual IRI="#Problem-solving_tasks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TLALevel3"/>
+        <NamedIndividual IRI="#Problem-solving_tasks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ApplyingVerb"/>
+        <NamedIndividual IRI="#Produce"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CreatingVerb"/>
+        <NamedIndividual IRI="#Produce"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EvaluatingVerb"/>
+        <NamedIndividual IRI="#Prove"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CreatingVerb"/>
+        <NamedIndividual IRI="#ProveFromFirstPrinicples"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RememberingVerb"/>
+        <NamedIndividual IRI="#Quote"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EvaluatingVerb"/>
+        <NamedIndividual IRI="#Rank"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EvaluatingVerb"/>
+        <NamedIndividual IRI="#Rate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TLALevel1"/>
+        <NamedIndividual IRI="#ReadingMaterial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RememberingVerb"/>
+        <NamedIndividual IRI="#Recall"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RememberingVerb"/>
+        <NamedIndividual IRI="#Recite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RememberingVerb"/>
+        <NamedIndividual IRI="#Recognize"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UnderstandingVerb"/>
+        <NamedIndividual IRI="#Recognize"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EvaluatingVerb"/>
+        <NamedIndividual IRI="#Reflect"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel5"/>
+        <NamedIndividual IRI="#Reflection"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TLALevel2"/>
+        <NamedIndividual IRI="#Reflection"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnalysingVerb"/>
+        <NamedIndividual IRI="#Relate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UnderstandingVerb"/>
+        <NamedIndividual IRI="#Report"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnalysingVerb"/>
+        <NamedIndividual IRI="#Research"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnalysingVerb"/>
+        <NamedIndividual IRI="#Review"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EvaluatingVerb"/>
+        <NamedIndividual IRI="#Review"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnalysingVerb"/>
+        <NamedIndividual IRI="#Rewrite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CreatingVerb"/>
+        <NamedIndividual IRI="#Rewrite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EvaluatingVerb"/>
+        <NamedIndividual IRI="#Rewrite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ApplyingVerb"/>
+        <NamedIndividual IRI="#Role"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel3"/>
+        <NamedIndividual IRI="#Roleplay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel6"/>
+        <NamedIndividual IRI="#Roleplay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TLALevel3"/>
+        <NamedIndividual IRI="#Roleplay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ApplyingVerb"/>
+        <NamedIndividual IRI="#Select"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EvaluatingVerb"/>
+        <NamedIndividual IRI="#Select"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnalysingVerb"/>
+        <NamedIndividual IRI="#Separate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnalysingVerb"/>
+        <NamedIndividual IRI="#Sequence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ApplyingVerb"/>
+        <NamedIndividual IRI="#Sequence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EvaluatingVerb"/>
+        <NamedIndividual IRI="#Sequence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ApplyingVerb"/>
+        <NamedIndividual IRI="#Show"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnalysingVerb"/>
+        <NamedIndividual IRI="#Solve"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ApplyingVerb"/>
+        <NamedIndividual IRI="#Solve"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CreatingVerb"/>
+        <NamedIndividual IRI="#Solve"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EvaluatingVerb"/>
+        <NamedIndividual IRI="#Solve"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CreatingVerb"/>
+        <NamedIndividual IRI="#SolveFromFirstPrinciples"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnalysingVerb"/>
+        <NamedIndividual IRI="#Structure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnalysingVerb"/>
+        <NamedIndividual IRI="#Summarize"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EvaluatingVerb"/>
+        <NamedIndividual IRI="#Summarize"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RememberingVerb"/>
+        <NamedIndividual IRI="#Tell"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CreatingVerb"/>
+        <NamedIndividual IRI="#Theorize"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel4"/>
+        <NamedIndividual IRI="#Thesis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel6"/>
+        <NamedIndividual IRI="#Thesis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel4"/>
+        <NamedIndividual IRI="#Think-pair-share"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TLALevel2"/>
+        <NamedIndividual IRI="#Think-pair-share"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TLALevel3"/>
+        <NamedIndividual IRI="#Think-pair-share"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TLALevel4"/>
+        <NamedIndividual IRI="#Think-pair-share"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ApplyingVerb"/>
+        <NamedIndividual IRI="#Transfer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnalysingVerb"/>
+        <NamedIndividual IRI="#Translate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CreatingVerb"/>
+        <NamedIndividual IRI="#Translate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EvaluatingVerb"/>
+        <NamedIndividual IRI="#Translate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EducationalGoalVerb"/>
+        <NamedIndividual IRI="#Understand"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ApplyingVerb"/>
+        <NamedIndividual IRI="#Use"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RememberingVerb"/>
+        <NamedIndividual IRI="#Write"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ApplyingVerb"/>
+        <NamedIndividual IRI="#WriteProgram"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel4"/>
+        <NamedIndividual IRI="#annotated_bibliography"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel3"/>
+        <NamedIndividual IRI="#case_study"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel4"/>
+        <NamedIndividual IRI="#class_discussion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel6"/>
+        <NamedIndividual IRI="#creative_work"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel6"/>
+        <NamedIndividual IRI="#demonstration"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel6"/>
+        <NamedIndividual IRI="#essay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel2"/>
+        <NamedIndividual IRI="#forum_posts"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel2"/>
+        <NamedIndividual IRI="#group_presentation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel2"/>
+        <NamedIndividual IRI="#individual_presentation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel2"/>
+        <NamedIndividual IRI="#interview"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel4"/>
+        <NamedIndividual IRI="#literature_review"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel2"/>
+        <NamedIndividual IRI="#minutes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel2"/>
+        <NamedIndividual IRI="#open-book"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel6"/>
+        <NamedIndividual IRI="#performance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel3"/>
+        <NamedIndividual IRI="#portfolio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel2"/>
+        <NamedIndividual IRI="#problem_sheet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel3"/>
+        <NamedIndividual IRI="#project"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel6"/>
+        <NamedIndividual IRI="#project"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel1"/>
+        <NamedIndividual IRI="#question_banks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel5"/>
+        <NamedIndividual IRI="#report"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel1"/>
+        <NamedIndividual IRI="#take-home_examinations"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel2"/>
+        <NamedIndividual IRI="#viva-voce"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel3"/>
+        <NamedIndividual IRI="#workbook"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATLevel1"/>
+        <NamedIndividual IRI="#quiz/test"/>
+    </ClassAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#BelongsToBTLevel1"/>
+        <ObjectProperty IRI="#hasRememberingVerb"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#BelongsToBTLevel2"/>
+        <ObjectProperty IRI="#hasUnderstandingVerb"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#BelongsToBTLevel3"/>
+        <ObjectProperty IRI="#hasApplyingVerb"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#BelongsToBTLevel4"/>
+        <ObjectProperty IRI="#hasAnalysingVerb"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#BelongsToBTLevel5"/>
+        <ObjectProperty IRI="#hasEvaluatingVerb"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#BelongsToBTLevel6"/>
+        <ObjectProperty IRI="#hasCreatingVerb"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#addressILO"/>
+        <ObjectProperty IRI="#isAddressedByTLA"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#enactsEducationalGoalVerbOf"/>
+        <ObjectProperty IRI="#isEnactedByTLA"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasAT"/>
+        <ObjectProperty IRI="#isATFor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasContent"/>
+        <ObjectProperty IRI="#isContentOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasContext"/>
+        <ObjectProperty IRI="#isContextOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasEducationalGoalVerb"/>
+        <ObjectProperty IRI="#isEducationalGoalVerbOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasILO"/>
+        <ObjectProperty IRI="#isILOFor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasObject"/>
+        <ObjectProperty IRI="#isObjectOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasPrerequisite"/>
+        <ObjectProperty IRI="#isPrerequisiteFor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasTLA"/>
+        <ObjectProperty IRI="#isTLAFor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isBaseOf"/>
+        <ObjectProperty IRI="#isBasedOn"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isDeployedInTheContextOf"/>
+        <ObjectProperty IRI="#isDeploymentContextOfEducationalGoalVerbOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isTestedBy"/>
+        <ObjectProperty IRI="#testsILOOf"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#BelongsToBTLevel"/>
+        <Class IRI="#EducationalGoalVerb"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#BelongsToBTLevel1"/>
+        <Class IRI="#RememberingVerb"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#BelongsToBTLevel2"/>
+        <Class IRI="#UnderstandingVerb"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#BelongsToBTLevel3"/>
+        <Class IRI="#ApplyingVerb"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#BelongsToBTLevel4"/>
+        <Class IRI="#AnalysingVerb"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#BelongsToBTLevel5"/>
+        <Class IRI="#EvaluatingVerb"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#BelongsToBTLevel6"/>
+        <Class IRI="#CreatingVerb"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#addressILO"/>
+        <Class IRI="#TeachingAndLearningActivity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#enactsEducationalGoalVerbOf"/>
+        <Class IRI="#TeachingAndLearningActivity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAT"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAnalysingVerb"/>
+        <Class IRI="#BTLevel4"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasApplyingVerb"/>
+        <Class IRI="#BTLevel3"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasContent"/>
+        <Class IRI="#IntendedLearningOutcome"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasContext"/>
+        <Class IRI="#IntendedLearningOutcome"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCreatingVerb"/>
+        <Class IRI="#BTLevel6"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEducationalGoalVerb"/>
+        <Class IRI="#IntendedLearningOutcome"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEvaluatingVerb"/>
+        <Class IRI="#BTLevel5"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasILO"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasObject"/>
+        <Class IRI="#EducationalGoalVerb"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPrerequisite"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRememberingVerb"/>
+        <Class IRI="#BTLevel1"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTLA"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasUnderstandingVerb"/>
+        <Class IRI="#BTLevel2"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isATFor"/>
+        <Class IRI="#AssessmentTask"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAddressedByTLA"/>
+        <Class IRI="#IntendedLearningOutcome"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isBaseOf"/>
+        <Class IRI="#EducationalGoalVerb"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isBasedOn"/>
+        <Class IRI="#AssessmentTask"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isContentOf"/>
+        <Class IRI="#Content"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isContextOf"/>
+        <Class IRI="#Context"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isDeployedInTheContextOf"/>
+        <Class IRI="#EducationalGoalVerb"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isDeploymentContextOfEducationalGoalVerbOf"/>
+        <Class IRI="#Context"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isEducationalGoalVerbOf"/>
+        <Class IRI="#EducationalGoalVerb"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isEnactedByTLA"/>
+        <Class IRI="#EducationalGoalVerb"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isILOFor"/>
+        <Class IRI="#IntendedLearningOutcome"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isObjectOf"/>
+        <Class IRI="#Content"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPrerequisiteFor"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPrerequisiteFor"/>
+        <Class IRI="#IntendedLearningOutcome"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isTLAFor"/>
+        <Class IRI="#TeachingAndLearningActivity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isTestedBy"/>
+        <Class IRI="#IntendedLearningOutcome"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#testsILOOf"/>
+        <Class IRI="#AssessmentTask"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#BelongsToBTLevel"/>
+        <Class IRI="#BloomTaxonomyLevel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#BelongsToBTLevel1"/>
+        <Class IRI="#BTLevel1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#BelongsToBTLevel2"/>
+        <Class IRI="#BTLevel2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#BelongsToBTLevel3"/>
+        <Class IRI="#BTLevel3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#BelongsToBTLevel4"/>
+        <Class IRI="#BTLevel4"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#BelongsToBTLevel5"/>
+        <Class IRI="#BTLevel5"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#BelongsToBTLevel6"/>
+        <Class IRI="#BTLevel6"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#addressILO"/>
+        <Class IRI="#IntendedLearningOutcome"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#enactsEducationalGoalVerbOf"/>
+        <Class IRI="#EducationalGoalVerb"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAT"/>
+        <Class IRI="#AssessmentTask"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAnalysingVerb"/>
+        <Class IRI="#AnalysingVerb"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasApplyingVerb"/>
+        <Class IRI="#ApplyingVerb"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasContent"/>
+        <Class IRI="#Content"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasContext"/>
+        <Class IRI="#Context"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCreatingVerb"/>
+        <Class IRI="#CreatingVerb"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEducationalGoalVerb"/>
+        <Class IRI="#EducationalGoalVerb"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEvaluatingVerb"/>
+        <Class IRI="#EvaluatingVerb"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasILO"/>
+        <Class IRI="#IntendedLearningOutcome"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasObject"/>
+        <Class IRI="#Content"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPrerequisite"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPrerequisite"/>
+        <Class IRI="#IntendedLearningOutcome"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRememberingVerb"/>
+        <Class IRI="#RememberingVerb"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTLA"/>
+        <Class IRI="#TeachingAndLearningActivity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasUnderstandingVerb"/>
+        <Class IRI="#UnderstandingVerb"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isATFor"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAddressedByTLA"/>
+        <Class IRI="#TeachingAndLearningActivity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isBaseOf"/>
+        <Class IRI="#AssessmentTask"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isBasedOn"/>
+        <Class IRI="#EducationalGoalVerb"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isContentOf"/>
+        <Class IRI="#IntendedLearningOutcome"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isContextOf"/>
+        <Class IRI="#IntendedLearningOutcome"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isDeployedInTheContextOf"/>
+        <Class IRI="#Context"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isDeploymentContextOfEducationalGoalVerbOf"/>
+        <Class IRI="#EducationalGoalVerb"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isEducationalGoalVerbOf"/>
+        <Class IRI="#IntendedLearningOutcome"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isEnactedByTLA"/>
+        <Class IRI="#TeachingAndLearningActivity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isILOFor"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isObjectOf"/>
+        <Class IRI="#EducationalGoalVerb"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPrerequisiteFor"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isTLAFor"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isTestedBy"/>
+        <Class IRI="#AssessmentTask"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#testsILOOf"/>
+        <Class IRI="#IntendedLearningOutcome"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Programme/Year"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ContentKeyword"/>
+        <Class IRI="#Content"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ContextKeyword"/>
+        <Class IRI="#Context"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#CourseCode"/>
+        <Class IRI="#Course"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#CourseTitle"/>
+        <Class IRI="#Course"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Course__moment"/>
+        <Class IRI="#TeachingAndLearningActivity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#EducationalLevel"/>
+        <Class IRI="#Course"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#FunctionOfAT"/>
+        <Class IRI="#AssessmentTask"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ILO_ID"/>
+        <Class IRI="#IntendedLearningOutcome"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#KindoOfAssessment"/>
+        <Class IRI="#AssessmentTask"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Language"/>
+        <Class IRI="#Course"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Location"/>
+        <Class IRI="#TeachingAndLearningActivity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#NumberOfCreditsInCourse"/>
+        <Class IRI="#Course"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#NumberOfStudentsInCourse"/>
+        <Class IRI="#Course"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Period"/>
+        <Class IRI="#Course"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ShortDescription"/>
+        <Class IRI="#IntendedLearningOutcome"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#TLAKeywords"/>
+        <Class IRI="#TeachingAndLearningActivity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#TLAMaterialLink"/>
+        <Class IRI="#TeachingAndLearningActivity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Programme/Year"/>
+        <Class IRI="#Course"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Weekday,_date__and_time_slot"/>
+        <Class IRI="#TeachingAndLearningActivity"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#ContentKeyword"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ContextKeyword"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#CourseCode"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#CourseTitle"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Course__moment"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#EducationalLevel"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#FunctionOfAT"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ILO_ID"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#KindoOfAssessment"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Language"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Location"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#NumberOfCreditsInCourse"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#NumberOfStudentsInCourse"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Period"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ShortDescription"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#TLAKeywords"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#TLAMaterialLink"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Programme/Year"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Weekday,_date__and_time_slot"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AnalysingVerb</IRI>
+        <Literal>Add Order, Sequence, Summarize, Review, Rewrite, Solve, Translate, Extrapolate
+
+
+
+
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AnalysingVerb</IRI>
+        <Literal>As seen in [Anderson and Krathwohl2001]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ApplyingVerb</IRI>
+        <Literal>Added Count, Order,Sequence, Solve</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ApplyingVerb</IRI>
+        <Literal>As seen in [Anderson and Krathwohl2001]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Content</IRI>
+        <Literal>This is the content addressed by the verb (EducationalGoalVerb), in other words the object of such verb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Context</IRI>
+        <Literal>The context of the Content discipline in which the verb (EducationalGoal) is to be deployed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Course__moment</IRI>
+        <Literal>Can be physical meeting or homework or any other kind of activity that need to be done in the course (e.g., visit). It 
+shows the chronological flow of the course.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CreatingVerb</IRI>
+        <Literal>Add Integrate, Rewrite, Solve, Make an original Case, Theorize, Generalize, Prove and Solve from First Principles, Translate, originate Improve extrapolate
+
+
+
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CreatingVerb</IRI>
+        <Literal>As seen in [Anderson and Krathwohl2001]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Describe</IRI>
+        <Literal>The student must be able to outline the content of the topic. Not necessarily tell how they interconnect with one another</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EducationalLevel</IRI>
+        <Literal>First Cycle = Bachelor
+Second Cycle = Master
+Unique Cycle </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EvaluatingVerb</IRI>
+        <Literal>Add Order, Sequence, Integrate, Summarize, Review, Rewrite, Solve, Make a Case, translate, reflect Extrapolate
+
+
+
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EvaluatingVerb</IRI>
+        <Literal>As seen in [Anderson and Krathwohl2001]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Explain</IRI>
+        <Literal>The Student must be able to tell how the components of the topic/theory are related to each other</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FunctionOfAT</IRI>
+        <Literal>Can be Initial, Formative or Summative. According to the function some of the datatype properties will or will not be active
+
+Initial is a sort of placement test.
+Formative assessment or diagnostic testing is a range of formal and informal assessment procedures employed by teachers during the learning process in order to modify teaching and learning activities to improve student attainment.[1] It typically involves qualitative feedback (rather than scores) for both student and teacher that focuses on the details of content and performance.[2] It is commonly contrasted with summative assessment, which seeks to monitor educational outcomes, often for purposes of external accountability.[3]:
+
+Assessment is often divided into initial, formative, and summative categories for the purpose of considering different objectives for assessment practices.
+Initial assessment - Also referred to as pre-assessment or diagnostic assessment, initial assessments are conducted prior to instruction or intervention to establish a baseline from which individual student growth can be measured.
+Formative assessment - Formative assessment is generally carried out throughout a course or project. Formative assessment, also referred to as &quot;educative assessment,&quot; is used to aid learning. In an educational setting, formative assessment might be a teacher (or peer) or the learner, providing feedback on a student&apos;s work and would not necessarily be used for grading purposes. Formative assessments can take the form of diagnostic, standardized tests.
+Summative assessment - Summative assessment is generally carried out at the end of a course or project. In an educational setting, summative assessments are typically used to assign students a course grade. Summative assessments are evaluative.
+
+http://en.wikipedia.org/wiki/Formative_assessment
+http://en.wikipedia.org/wiki/Summative_assessment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#KindoOfAssessment</IRI>
+        <Literal>Formal or informal
+
+Assessment can be either formal or informal. Formal assessment usually implies a written document, such as a test, quiz, or paper. A formal assessment is given a numerical score or grade based on student performance, whereas an informal assessment does not contribute to a student&apos;s final grade such as this copy and pasted discussion question. An informal assessment usually occurs in a more casual manner and may include observation, inventories, checklists, rating scales, rubrics, performance and portfolio assessments, participation, peer and self-evaluation, and discussion.[8]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NumberOfStudentsInCourse</IRI>
+        <Literal>For the moment represent the max number of students. As a future development we can structure this as a class that can tell us if the activity we are doing for teaching and assessment is correct. In this case we can have the exact number of syudents in the past years.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Period</IRI>
+        <Literal>Period according to KTH model:
+- 1: End of August-Mid October
+- 2:Mid October - Mid December
+- 3: January- Mid March
+- 4: Mid March- Mid June</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Plan</IRI>
+        <Literal>Also seen as &quot;Make a Plan&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RememberingVerb</IRI>
+        <Literal>Added Memorize, Imitate, Narrate, Recognize
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RememberingVerb</IRI>
+        <Literal>As seen in [Anderson and Krathwohl2001]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Solve</IRI>
+        <Literal>Also seen as &quot;Solve a Problem&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SolveFromFirstPrinciples</IRI>
+        <Literal>Also seen as &quot;Solve unseen problems&quot;
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UnderstandingVerb</IRI>
+        <Literal>Added Count, Order, Narrate
+
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UnderstandingVerb</IRI>
+        <Literal>As seen in [Anderson and Krathwohl2001]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Programme/Year</IRI>
+        <Literal>&lt;programCODE&gt; as seen in the program class individual followed by the &lt;Profile&gt; and the integer number representing the year</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Weekday,_date__and_time_slot</IRI>
+        <Literal>4
+It helps understanding relative positioning and duration of different course moments</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
