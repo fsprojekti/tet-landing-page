@@ -127,6 +127,47 @@ h3{
 
 }
 
+/* Default link styling (for light backgrounds) */
+a {
+    color: #007BFF;
+    font-weight: bold;
+    text-decoration: underline;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Hover effect */
+a:hover {
+    color: #0056b3;
+    background-color: rgba(0, 123, 255, 0.1);
+    padding: 2px 5px;
+    border-radius: 4px;
+}
+
+/* Links inside dark background sections */
+.container-fluid[style*="background: white;"] a,
+.container-fluid[style*="background:white;"] a {
+    color: #007BFF; /* Blue for links on white background */
+}
+
+.container-fluid[style*="background: #1b2068;"] a,
+.container-fluid[style*="background:#1b2068;"] a,
+.container-fluid[style*="background: black;"] a {
+    color: #F8D210; /* Yellow for links on dark backgrounds */
+}
+
+.container-fluid[style*="background: grey;"] a,
+.container-fluid[style*="background: gray;"] a {
+    color: #FFD700; /* Golden color for links on grey */
+}
+
+/* Ensure contrast on hover */
+.container-fluid[style*="background: #1b2068;"] a:hover,
+.container-fluid[style*="background: black;"] a:hover {
+    color: #FFD700;
+    text-shadow: 0px 0px 5px rgba(255, 215, 0, 0.8);
+}
+
+
 
 
 
