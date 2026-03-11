@@ -182,3 +182,18 @@ h3{
     color: #1b2068;
     box-shadow: 0 10px 22px rgba(212,175,55,0.30);
 }
+
+.tet-highlight-icon {
+    width: 64px;
+    height: 64px;
+    background: linear-gradient(135deg,#FFD700,#d4af37);
+    border-radius: 50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.tet-highlight-icon i {
+    color:#1b2068;
+    font-size:1.6rem;
+}
